@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #red,
+        #green,
+        #blue {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+
+        #red {
+            background: red;
+        }
+
+        #green {
+            background: green;
+        }
+
+        #blue {
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <div id="red" onclick="alert('Ви клацнули по червоному квадратику');"></div>
+            </td>
+            <td>
+                <div id="green" onclick="alert('Ви клацнули по зеленому квадратику');"></div>
+            </td>
+            <td>
+                <div id="blue" onclick="alert('Ви клацнули по синьому квадратику');"></div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
